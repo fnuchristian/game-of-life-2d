@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Game of Life 2D</title>
+  <meta charset='utf-8'>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css">
+  <link rel="stylesheet" href="http://designmodo.github.io/Flat-UI/css/flat-ui.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <header class='header'>
+      <h3 class="text-primary text-center">Game of Life 2D</h3>
+    </header>
+    <main class='col-md-12'>
+      <section class='row'>
+        <div class="col-md-12 table-responsive bg-default">
+          <table class='table table-bordered' id='board'>
+
+          </table>
+        </div>
+      </section>
+      <section class="row" id='table-form'>
+        <div class='col-md-12 form-inline text-center'>
+          <fieldset class='form-group'>
+            <label>Width: </label>
+            <input class='form-control' type="text" id='width' placeholder="20-40">
+          </fieldset>
+          <fieldset class='form-group'>
+            <label>Height: </label>
+            <input class='form-control' type="text" id='height' placeholder="20-40">
+          </fieldset>
+            <button class="btn btn-default" id='reset-table'>Reset Table</button>
+        </div>
+      </section>
+      <hr>
+      <section class="row" id='control-panel'>
+        <div class="col-md-12 text-center">
+          <button class='btn btn-success'>Step</button>
+          <button class='btn btn-primary'>Auto-Play</button>
+          <button class='btn btn-danger'>Pause</button>
+          <button class='btn btn-warning'>Reset</button>
+          <button class='btn btn-info'>Clear</button>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src='js/app.js'></script>
+</body>
+
+</html>
