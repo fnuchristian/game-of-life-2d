@@ -27,3 +27,6 @@ Using a class constructor named GameOfLife.  Put all the data and game logic ins
 
 ####View
 Using an object named `dom`.  Put all the DOM related data and function inside this object.  all DOM data will have this syntax `dom['input']`.
+
+##Future updates
+To be able to fill each cell by using mouse click & drag.
