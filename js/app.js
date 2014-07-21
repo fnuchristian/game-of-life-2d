@@ -240,6 +240,8 @@ dom['make-table'].onclick = function() {
   } else {
     showWarning('Please specify table width & height!');
   }
+
+  dom['auto-play'].innerHTML = 'Auto-Play';
 };
 
 dom['reset'].onclick = function() {
@@ -250,4 +252,6 @@ dom['reset'].onclick = function() {
 
   board.removeChild(tbody);
   gameOfLife.createAndShowBoard();
+
+  dom['auto-play'].innerHTML = 'Auto-Play';
 };
