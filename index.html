@@ -35,21 +35,22 @@
             <label>Height: </label>
             <input class='form-control' type="text" id='height' placeholder="20-40">
           </fieldset>
-            <button class="btn btn-default" id='reset-table'>Reset Table</button>
+            <button class="btn btn-default" id='make-table'>Make Table</button>
+            <p id='warning'>Please make between 20 x 20 to 40 x 40</p>
         </div>
       </section>
       <hr>
       <section class="row" id='control-panel'>
         <div class="col-md-12 text-center">
-          <button class='btn btn-success'>Step</button>
-          <button class='btn btn-primary'>Auto-Play</button>
-          <button class='btn btn-danger'>Pause</button>
-          <button class='btn btn-warning'>Reset</button>
-          <button class='btn btn-info'>Clear</button>
+          <button class='btn btn-success' id='step'>Step</button>
+          <button class='btn btn-primary' id='auto-play'>Auto-Play</button>
+          <button class='btn btn-warning' id='reset'>Reset</button>
+          <button class='btn btn-info' id='clear'>Clear</button>
         </div>
       </section>
     </main>
   </div>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js'></script>
   <script src='js/app.js'></script>
 </body>
 

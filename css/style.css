@@ -7,9 +7,6 @@
   bottom: 1.5px;
 }
 
-td {
-  height: 30px;
-}
 @media only screen and (max-width: 768px) {
   .btn {
     margin: 0 0 3px 0;
@@ -17,4 +14,17 @@ td {
   #height, #width {
     margin: 0 auto;
   }
+}
+
+.alive {
+  background-color: #33ce75;
+}
+
+.dead {
+  background-color: #fff;
+}
+
+#warning {
+  visibility: hidden;
+  margin-bottom: 0;
 }
